@@ -13,7 +13,7 @@ const Language = ({ item }) => {
   return (
     <Container
       onClick={showList}
-      className="border-none rounded-4 bg-primary p-2 h-100 lang-card "
+      className="border-none rounded-4 bg-warning p-2 h-100 lang-card "
       type="button"
     >
       {/* {show && (
